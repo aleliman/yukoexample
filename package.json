@@ -1,0 +1,22 @@
+{
+  "name": "yuko-desenvolvimento-de-sites",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next dev",
+    "build": "next build",
+    "start": "node --max-old-space-size=2048 ./node_modules/next/dist/bin/next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
